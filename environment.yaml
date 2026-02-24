@@ -1,0 +1,12 @@
+name: crop-production-prediction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - streamlit
+  - pandas
+  - scikit-learn=1.8.0
+  - joblib
+  - xgboost
+  - pip
