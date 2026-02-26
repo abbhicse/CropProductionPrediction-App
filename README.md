@@ -156,10 +156,28 @@ streamlit run app.py
 
 ## Requirements
 
-Install dependencies:
+- Create and Install dependencies inside conda base environment:
 
 ```bash
-pip install streamlit pandas scikit-learn joblib xgboost
+conda env create -p C:\conda_envs\crop-production-prediction -f environment.yaml
+```
+
+- Activate the conda environment
+
+```bash
+conda activate C:\conda_envs\crop-production-prediction
+```
+
+- Register the environment as a Jupyter kernel
+
+```bash
+python -m ipykernel install --user --name crop-production-prediction --display-name "Python (crop-production-prediction)"
+```
+
+- Open the jupyter notebook
+
+```bash
+jupyter notebook
 ```
 
 ---

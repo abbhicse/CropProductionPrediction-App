@@ -9,4 +9,10 @@ dependencies:
   - scikit-learn=1.8.0
   - joblib
   - xgboost
+  - matplotlib
+  - seaborn
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - openpyxl
   - pip
