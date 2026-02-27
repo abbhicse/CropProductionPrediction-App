@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 # Load model and encoders
-model = joblib.load("models/model_rf.pkl")
-le_area = joblib.load("models/le_area.pkl")
-le_item = joblib.load("models/le_item.pkl")
+model = joblib.load("models/model_rf.joblib")
+le_area = joblib.load("models/le_area.joblib")
+le_item = joblib.load("models/le_item.joblib")
 
 st.title("Crop Production Predictor")
 
